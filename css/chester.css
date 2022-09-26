@@ -1,0 +1,80 @@
+body{
+    margin: 50px;
+    align-items: baseline;
+    background-image: url("/images/Group-10.png");
+    background-position-x: 60%;
+    background-position-y: 150px;
+    background-repeat: no-repeat;
+    background-size: 35%;
+    flex-direction: column;
+}
+.icon-inside {
+    position: absolute;
+    left: 10px;
+    top: calc(50% - 12px);
+    pointer-events: none;
+    font-size: 16px;
+    font-size: 1.125rem;
+    color: #c4c3c3;
+    z-index:3;
+  }
+  .input-group{
+    border-radius: 1rem;
+  }
+  
+  .input-group{
+    padding: 5px;
+    height: auto;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+  }
+  .btn{
+    width: 40%;
+    border-radius: 20px;
+    margin-left: 120px ;
+    margin-top: 20px;
+}
+.socials{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sign{
+    padding:30px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.or{
+  font-size:x-small;
+  padding: 10px;
+  margin-left: 120px;
+}
+a {
+  color: black;
+}
+.facebook{
+  margin-left: 300px;
+  font-size: 20px;
+}
+.twitter{
+  padding-left: 40px;
+  font-size: 20px;
+}
+.google{
+  padding-left: 40px;
+  font-size: 20px;
+}
+.linkedin{
+  padding-left: 40px;
+  font-size: 20px;
+}
+i {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 10px;
+}
